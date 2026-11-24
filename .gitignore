@@ -1,0 +1,6 @@
+dist/
+site.tar.gz
+data/
+.env
+.wrangler/
+published/

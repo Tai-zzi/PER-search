@@ -1,0 +1,9 @@
+name = "degul-factor-lab"
+main = "worker/index.js"
+compatibility_date = "2026-10-01"
+keep_names = false
+
+# 개발자가 수집한 실제 데이터(published/_data/dataset.json)를 정적 파일로 함께 배포합니다.
+[assets]
+directory = "./published"
+binding = "ASSETS"

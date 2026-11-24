@@ -1,0 +1,13 @@
+{
+  "name": "degul-factor-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bash scripts/build.sh",
+    "validate": "node scripts/validate-artifact.mjs",
+    "dev": "node scripts/dev.mjs",
+    "collect": "node scripts/collect.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "publish-data": "node scripts/publish-data.mjs"
+  }
+}
